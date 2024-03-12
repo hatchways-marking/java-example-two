@@ -1,0 +1,6 @@
+*.class
+*.log
+.gradle
+.idea
+build
+test_database.db
