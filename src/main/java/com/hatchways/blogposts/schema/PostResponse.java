@@ -1,5 +1,7 @@
 package com.hatchways.blogposts.schema;
 
+import com.hatchways.blogposts.model.Post;
+
 public class PostResponse {
   private String text;
   private String[] tags;
@@ -9,6 +11,15 @@ public class PostResponse {
   private Long id;
 
   public PostResponse() {}
+
+  public PostResponse(final Post post) {
+    id = post.getId();
+    text = post.getText();
+    tags = post.getTags();
+    popularity = post.getPopularity();
+    reads = post.getReads();
+    likes = post.getLikes();
+  }
 
   public String getText() {
     return text;

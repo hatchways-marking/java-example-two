@@ -32,6 +32,8 @@ public class Post {
   @Column(precision = 7, scale = 2)
   private Float popularity;
 
+  @Column private Integer[] authorIds;
+
   @ManyToMany
   @JoinTable(
       name = "user_post",
@@ -103,5 +105,13 @@ public class Post {
 
   public void setUsers(Set<User> users) {
     this.users = users;
+  }
+
+  public Integer[] getAuthorIds() {
+    return authorIds;
+  }
+
+  public void setAuthorIds(Integer[] authorIds) {
+    this.authorIds = authorIds;
   }
 }
