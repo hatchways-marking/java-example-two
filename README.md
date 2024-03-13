@@ -7,6 +7,10 @@
   ```
   gradle bootRun
   ```
+- Run tests
+  ```
+  gradle test
+  ```
 
 # Getting Started (Docker)
 
