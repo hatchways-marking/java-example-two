@@ -1,0 +1,11 @@
+{
+    "post": {
+        "tags": ["art", "spa", "beach"],
+        "id": 9,
+        "text": "Quis sint amet ex ea cillum. Cillum eiusmod sit dolor proident. Exercitation enim sunt tempor tempor laborum dolor enim esse irure. Labore ut sit culpa sunt nostrud laboris. Adipisicing proident ea amet duis cillum do quis ipsum nostrud elit occaecat qui veniam. Laborum eu nostrud laboris labore ipsum id non Lorem dolor.",
+        "likes": 0,
+        "reads": 71,
+        "popularity": 0.78,
+        "authorIds": [5, 1, 3]
+    }
+}

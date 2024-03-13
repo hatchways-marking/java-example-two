@@ -1,0 +1,11 @@
+{
+    "post": {
+        "tags": ["vacation", "art"],
+        "id": 1,
+        "text": "apple",
+        "likes": 12,
+        "reads": 5,
+        "popularity": 0.19,
+        "authorIds": [1, 2]
+    }
+}
