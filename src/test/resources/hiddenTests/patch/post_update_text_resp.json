@@ -1,0 +1,11 @@
+{
+    "post": {
+        "tags": ["art", "spa", "beach"],
+        "id": 9,
+        "text": "uno dos tres",
+        "likes": 0,
+        "reads": 71,
+        "popularity": 0.78,
+        "authorIds": [5]
+    }
+}

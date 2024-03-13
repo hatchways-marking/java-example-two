@@ -1,0 +1,11 @@
+{
+    "post": {
+        "tags": ["tech", "music", "spa"],
+        "id": 5,
+        "text": "Nulla minim irure duis cillum dolore minim enim officia nulla ut. Tempor magna pariatur velit ea cillum reprehenderit. Commodo laborum ullamco est dolore ea nostrud excepteur cupidatat esse. Esse cupidatat velit aliquip aliquip consectetur duis veniam excepteur anim deserunt. Do irure id aute culpa deserunt aute sit ad irure ullamco enim non cupidatat.",
+        "likes": 13,
+        "reads": 14,
+        "popularity": 0.64,
+        "authorIds": [5]
+    }
+}
