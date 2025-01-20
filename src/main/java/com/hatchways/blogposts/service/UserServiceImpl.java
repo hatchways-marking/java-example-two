@@ -17,6 +17,11 @@ public class UserServiceImpl implements UserService {
     this.userRepository = userRepository;
   }
 
+  @Override
+  public User findByUsername(String username) {
+    return userRepository.findByUsername(username);
+  }
+
   public User createUser(String username, String password) {
     User existingUser = userRepository.findByUsername(username);
     if (existingUser != null) {

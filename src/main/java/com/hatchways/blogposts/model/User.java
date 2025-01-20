@@ -52,6 +52,10 @@ public class User implements UserDetails {
     return posts;
   }
 
+  public void setPosts(final Set<Post> posts) {
+    this.posts = posts;
+  }
+
   @Override
   public Collection<? extends GrantedAuthority> getAuthorities() {
     return null;
